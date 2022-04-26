@@ -1,7 +1,7 @@
 public class Main {
     public static void main(String[] args) {
         int cash = 300;
-        int amount = 3000;
+        int amount = 4440;
         int bonus = amount / 100;
 
         if (amount > 1000) {
@@ -11,7 +11,7 @@ public class Main {
         } else {
             System.out.println("Баланс:");
             System.out.println(cash + amount);
-            System.out.println("Бонус:" + bonus);
+            System.out.println("Бонус:" + 0);
         }
     }
 
